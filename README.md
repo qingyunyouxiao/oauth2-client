@@ -7,10 +7,15 @@ App-Token based easy OAuth2 JPA implementation built to grow with Spring Boot.
 ## Introduction
 
 Maven 
+
 1. Maven Ropos：https://mvnrepository.com/artifact/io.github.patternhelloworld.securityhelper.oauth2.api/spring-oauth2-easyplus
 
-OIDC
+
+OIDC JWT
+
 2. Develop Authenticating APIs With JWT Authorizers and OIDC:  https://www.descope.com/blog/post/jwt-authorizer-oidc
+
+3. 
 
 
 ## Solution
