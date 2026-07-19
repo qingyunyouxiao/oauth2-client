@@ -1,10 +1,18 @@
-package com.oauth2.client.domain.admin.api;
+package com.oauth2.client.admin.api;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.oauth2.client.service.AdminService;
+
 @RequestMapping("api/v1")
 public class AdminApi {
-        
+        private final AdminService adminService;
+
+        public AdminApi(AdminService adminService) {
+                this.adminService = adminService;
+        }
+
+
 }
 
 
